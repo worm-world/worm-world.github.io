@@ -14,9 +14,9 @@
   <div class="card-body">
     <div class="flex flex-row justify-between">
         <h2 class="card-title">{name}</h2>
-        <div class="h-6 flex flex-row">
-            <a href={githubURL} class="mx-4"><FaGithub /></a>
-            <a href={linkedinURL}><FaLinkedin /></a>
+        <div class="h-6 grid grid-cols-2 grid-rows-1 justify-start">
+            <a href={githubURL} class="w-6 mr-4"><FaGithub /></a>
+            <a href={linkedinURL} class="w-6"><FaLinkedin /></a>
         </div>
     </div>
     <p>{description}</p>
