@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="./favicon/favicon.png" />
+		<meta name="viewport" content="width=device-width" />
+		<meta http-equiv="content-security-policy" content="">
+		<link href="./_app/immutable/assets/_layout.9caada18.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.dd8e025f.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.34172e53.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.bb96a7b0.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.7d6fee46.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/_layout.svelte.911dc8dd.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/_page.svelte.b5dff78d.js"><title>WormWorld</title><!-- HEAD_svelte-u4jwrq_START --><link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg"><link rel="icon" type="image/png" href="/favicon/favicon.png"><!-- HEAD_svelte-u4jwrq_END -->
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">
+
+
+
+
+<div class="w-full flex flex-col items-center"><div class="flex flex-row items-center normal-case text-5xl mt-4"><img src="/worm.svg" alt="WormWorld" class="h-24">
+    <h1 class="wormworld">ormWorld</h1></div>
+  <div class="max-w-5xl"><div class="navbar bg-base-100"><div class="flex-1 mr-12"></div>
+      <div class="flex-none"><ul class="menu menu-horizontal px-4"><li><a href="/">About</a></li>
+          <li><a href="/team">Team</a></li>
+          <li><a href="/download">Download</a></li>
+          <li><a href="/guide">User Guide</a></li></ul></div></div></div>
+
+  <div class="w-full flex flex-row justify-center items-center"><div class="ml-4 sm:ml-0"><div class="flex flex-col"><article class="prose"><p class="first-letter:text-3xl svelte-1ryf2vr">Our software application helps to serve the needs of modern genetic
+  researchers in a laboratory research setting, specifically those carrying out
+  genetic crossings on the model organism C. Elegans, which is a very small worm
+  whose biology makes it a highly useful if somewhat surprising analog to humans
+  in certain respects. A cursory search for genetics software tools shows that
+  there is an abundance of tools to match the wide variety of areas, approaches,
+  and research methods used by geneticists. It is not surprising that in their
+  attempts to uncover the mysteries of genetic code, researchers and developers
+  have turned to computer code and the computational power and productivity
+  enhancements it can proffer. One of our sponsors, in fact, has developed and
+  published a tool called ApE (https://jorgensen.biology.utah.edu/wayned/ape),
+  which is a “plasmid editor”. Despite this, there does not seem to be a
+  well-known gene-crossing planner or scheduler that serves the desired ends of
+  our sponsors or those with similar aims. Our tool provides not only technical
+  conveniences such as the calculations of statistical frequencies but also
+  practical and logistical features to organize and coordinate active genetic
+  crosses.
+</p>
+<p class="svelte-1ryf2vr">In light of this, the WormWorld application promises to fill an open niche in
+  this area and potentially enhance genetic-crossing research productivity.
+  Beyond this principal use, there are secondary uses for the application–as a
+  pedagogical tool, for example, that can help illustrate the nature of genetic
+  crosses or bridge the experience gap for a new researcher through an
+  interactive design process and the display of helpful information.
+</p>
+<p class="svelte-1ryf2vr">We will be using the Tauri app framework, which allows us to develop using a
+  web frontend and a Rust backend. Tauri is an alternative to Electron that
+  helps developers build lean and performant apps. For the web frontend, we’ll
+  use React with Typescript. Additionally, rather than try to build every
+  component from scratch, we plan on making use of an open-source component
+  library (such as MaterialUI) to speed up development and allow us to focus on
+  the core complexities of the project. For styling, we’ll likely use
+  TailwindCSS and the Feather open-source icon suite. On the backend, we’ll use
+  Sqlite3 bindings for Rust to store and query the data for strains, genes,
+  alleles, and breeding timelines. We may use the most popular Rust ORM called
+  Diesel, or call SQL directly with the sqlx package. Both of these frameworks
+  have helpful compile-time type checking and testing/mock modules which will
+  help produce more consistent and robust software throughout the development
+  process. With the current project scope, we won’t need any cloud hosting as
+  our sponsors plan to run the software from a local machine. The app will run
+  on a user’s desktop with a local Sqlite3 database that they can import and
+  export data from.
+</p>
+<p class="svelte-1ryf2vr">The Tauri app framework uses each operating system’s native webviews to build
+  cross-platform desktop applications. This allows our app to run on Linux,
+  MacOS, and Windows. If a desktop computer can run a browser, it can run our
+  application. The installation process for a user should be simple: download
+  the installer on Windows, a bundle on MacOS, or a .deb package for Linux.
+  Tauri includes an updater in the binaries, so once a user has installed our
+  app, we should be able to publish updates to them without them having to
+  manually download it again. Given that this will be a desktop application,
+  there is no additional hardware needed beyond a computer to run the
+  application.
+</p></article>
+</div></div></div>
+
+  <footer class="footer footer-center p-4 text-gray-400"><div class="flex flex-row"><img src="/worm.svg" alt="WormWorld" class="h-12">
+      <p class="ml-2">Copyright © 2023 - All right reserved</p></div></footer></div>
+
+
+			
+			<script>
+				{
+					__sveltekit_17xbws8 = {
+						env: {},
+						base: new URL(".", location).pathname.slice(0, -1),
+						element: document.currentScript.parentElement
+					};
+
+					const data = [{"type":"data","data":null,"uses":{}},null];
+
+					Promise.all([
+						import("./_app/immutable/entry/start.dd8e025f.js"),
+						import("./_app/immutable/entry/app.7d6fee46.js")
+					]).then(([kit, app]) => {
+						kit.start(app, __sveltekit_17xbws8.element, {
+							node_ids: [0, 2],
+							data,
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>
