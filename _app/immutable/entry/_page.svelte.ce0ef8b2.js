@@ -1,4 +1,4 @@
-import{S as M,i as A,s as F,k as c,q as f,a as S,l as h,m as p,r as w,h as o,c as O,n as d,b as L,F as t,J as W}from"../chunks/index.34172e53.js";function j(I){let a,e,s,g,y,r,v,b,i,k,x,l,T;return{c(){a=c("div"),e=c("article"),s=c("p"),g=f(`Our software application helps to serve the needs of modern genetic
+import{S as M,i as A,s as L,k as c,q as f,a as S,l as h,m as p,r as w,h as o,c as O,n as d,b as j,N as t,D as W}from"../chunks/index.2b2c775f.js";function C(I){let a,e,s,g,y,r,v,b,i,k,x,l,T;return{c(){a=c("div"),e=c("article"),s=c("p"),g=f(`Our software application helps to serve the needs of modern genetic
   researchers in a laboratory research setting, specifically those carrying out
   genetic crossings on the model organism C. Elegans, which is a very small worm
   whose biology makes it a highly useful if somewhat surprising analog to humans
@@ -90,4 +90,4 @@ import{S as M,i as A,s as F,k as c,q as f,a as S,l as h,m as p,r as w,h as o,c a
   app, we should be able to publish updates to them without them having to
   manually download it again. Given that this will be a desktop application,
   there is no additional hardware needed beyond a computer to run the
-  application.`),R.forEach(o),n.forEach(o),m.forEach(o),this.h()},h(){d(s,"class","first-letter:text-3xl svelte-1ryf2vr"),d(r,"class","svelte-1ryf2vr"),d(i,"class","svelte-1ryf2vr"),d(l,"class","svelte-1ryf2vr"),d(e,"class","prose"),d(a,"class","flex flex-col")},m(u,m){L(u,a,m),t(a,e),t(e,s),t(s,g),t(e,y),t(e,r),t(r,v),t(e,b),t(e,i),t(i,k),t(e,x),t(e,l),t(l,T)},p:W,i:W,o:W,d(u){u&&o(a)}}}class D extends M{constructor(a){super(),A(this,a,null,j,F,{})}}export{D as default};
+  application.`),R.forEach(o),n.forEach(o),m.forEach(o),this.h()},h(){d(s,"class","first-letter:text-3xl svelte-1ryf2vr"),d(r,"class","svelte-1ryf2vr"),d(i,"class","svelte-1ryf2vr"),d(l,"class","svelte-1ryf2vr"),d(e,"class","prose"),d(a,"class","flex flex-col")},m(u,m){j(u,a,m),t(a,e),t(e,s),t(s,g),t(e,y),t(e,r),t(r,v),t(e,b),t(e,i),t(i,k),t(e,x),t(e,l),t(l,T)},p:W,i:W,o:W,d(u){u&&o(a)}}}class F extends M{constructor(a){super(),A(this,a,null,C,L,{})}}export{F as default};
