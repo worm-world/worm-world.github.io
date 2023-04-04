@@ -1,5 +1,8 @@
-<script>
+<script lang="ts">
   import "../app.css";
+  import PageTransition from "../components/PageTransition.svelte";
+  import type { LayoutData } from "./$types";
+  export let data : LayoutData;
 </script>
 
 <svelte:head>
@@ -28,8 +31,8 @@
   </div>
 
   <div class="w-full flex flex-row justify-center items-center">
-    <div class="ml-4 sm:ml-0">
-      <slot />
+    <div class="ml-6 sm:ml-0">
+      <PageTransition refresh={data.key.href}><slot /></PageTransition>
     </div>
   </div>
 

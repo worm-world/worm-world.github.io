@@ -1,47 +1,45 @@
 <script lang="ts">
-  import type { ComponentType } from "svelte";
+  import type { ComponentProps } from "svelte";
   import ProfileCard from "../../components/ProfileCard.svelte";
 
-  const profiles = [
+  const profiles: ComponentProps<ProfileCard>[] = [
     {
       name: "Andrew Lee",
       image: "/andrew.webp",
-      description:
-        "Andrew made the team learn Rust for no good reason.",
-      githubURL: "",
-      linkedinURL: "",
+      description: "Andrew made the team learn Rust for no good reason.",
+      githubURL: "https://github.com/candrewlee14",
+      linkedinURL: "https://www.linkedin.com/in/c-andrew-lee/",
+      websiteURL: "https://candrewlee14.github.io/",
     },
     {
       name: "Seth Gunsay",
       image: "/seth.jpeg",
-      description:
-        "Seth is a TDD devotee.",
+      description: "Seth is a TDD devotee.",
       githubURL: "",
       linkedinURL: "",
+      websiteURL: "",
     },
     {
       name: "Daniel Israelsen",
-      image: "/daniel.png",
-      description:
-        "Daniel knows worms genetics.",
+      image: "/daniel.webp",
+      description: "Daniel knows worms genetics.",
       githubURL: "",
       linkedinURL: "",
+      websiteURL: "",
     },
     {
       name: "Will Bradshaw",
       image: "/will.jpeg",
-      description:
-        "Will likes memes and schedulers.",
+      description: "Will likes memes and schedulers.",
       githubURL: "",
       linkedinURL: "",
+      websiteURL: "",
     },
   ];
-
-
 </script>
 
 <div class="flex flex-wrap justify-center items-center">
-    {#each profiles as profile}
-        <ProfileCard {...profile} />
-    {/each}
+  {#each profiles as profile}
+    <ProfileCard {...profile} />
+  {/each}
 </div>
