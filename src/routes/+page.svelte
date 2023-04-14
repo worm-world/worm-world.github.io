@@ -1,6 +1,10 @@
+<div class="w-full flex flex-row justify-center py-2 pb-3">
+  <div class="prose">
+    <h1 class="text-center">About the Project</h1>
+  </div>
+</div>
 <div class="flex flex-col">
   <article class="prose">
-    <h1>Overview</h1>
     <p class="first-letter:text-3xl">
       WormWorld is a multi-platform desktop application to assist modern genetic
       researchers in a laboratory setting. It specifically supports those who
@@ -10,11 +14,9 @@
       sponsored by Matt Rich and Wayne Davis of the
       <span class="">University of Utah School of Biological Sciences.</span>
     </p>
-    <h2>Description</h2>
-    <p>WormWorld is a multi-platform desktop application to assist modern genetic researchers in a laboratory setting. It specifically supports those who study the model organism C. Elegans, which is a small roundworm whose genetics are commonly studied in labs around the world to provide insights into basic genetics and analogous genetic processes in humans. We are sponsored by Matt Rich and Wayne Davis of the University of Utah School of Biological Sciences.</p>
     <img src="/about/c_elegans.jpg" alt="C. Elegans" />
     <p>
-      Genetics is a large and complex field, and a cursory search for genetics software shows an abundance of tools to match the wide variety of areas, approaches, and research methods used by geneticists. By its nature, genetics lends itself to computational assistance because of the kinds and quantities of data that can be analyzed and processed; it is not surprising that in their attempts to uncover the mysteries of genetic code, researchers and developers have turned to computer code and the computational power and productivity enhancements it can proffer. One of our sponsors, in fact, has developed and published a tool called ApE (https://jorgensen.biology.utah.edu/wayned/ape), which is a “plasmid editor.”  One of the most common laboratory activities is to plan and execute a sequence of related genetic cross-breedings or “crosses” to arrive at a desired genetic profile. Despite this, there does not seem to be an existing well-known gene-crossing designer or scheduler to facilitate these activities. Consequently, these designs and schedules must be done by hand, which can be time consuming and error prone. As a solution to this, WormWorld provides tools for designing and scheduling genetic crosses. It includes technical conveniences such as automatic offspring calculations with statistical frequencies as well as practical and logistical features to organize and coordinate the execution of genetic crosses.
+      Genetics is a large and complex field, and a cursory search for genetics software shows an abundance of tools to match the wide variety of areas, approaches, and research methods used by geneticists. By its nature, genetics lends itself to computational assistance because of the kinds and quantities of data that can be analyzed and processed; it is not surprising that in their attempts to uncover the mysteries of genetic code, researchers and developers have turned to computer code and the computational power and productivity enhancements it can proffer. One of our sponsors, in fact, has developed and published a tool called <a href="https://jorgensen.biology.utah.edu/wayned/ape">ApE</a>, which is a “plasmid editor.”  One of the most common laboratory activities is to plan and execute a sequence of related genetic cross-breedings or “crosses” to arrive at a desired genetic profile. Despite this, there does not seem to be an existing well-known gene-crossing designer or scheduler to facilitate these activities. Consequently, these designs and schedules must be done by hand, which can be time consuming and error prone. As a solution to this, WormWorld provides tools for designing and scheduling genetic crosses. It includes technical conveniences such as automatic offspring calculations with statistical frequencies as well as practical and logistical features to organize and coordinate the execution of genetic crosses.
     </p>
     <img src="/about/image1.gif" alt="Genetic cross designer in action" />
     <p>
