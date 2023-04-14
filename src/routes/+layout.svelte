@@ -65,7 +65,7 @@
     </div>
   </div>
 
-  <footer class="footer footer-center p-4 text-gray-400">
+  <footer class="footer footer-center p-4 pt-8 text-gray-400">
     <div class="flex flex-row">
       <img src="/worm.svg" alt="WormWorld" class="h-12" />
       <p class="ml-2">Copyright © 2023 - All right reserved</p>
