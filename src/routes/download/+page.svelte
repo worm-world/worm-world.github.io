@@ -4,6 +4,11 @@
   import DataDownload from "svelte-icons/fa/FaArchive.svelte";
 </script>
 
+<div class="w-full flex flex-row justify-center py-2 pb-3">
+  <div class="prose">
+    <h1 class="text-center">Download</h1>
+  </div>
+</div>
 <div class="flex flex-col">
   <div class="flex w-full pt-1">
     <div class="grid flex-grow card place-items-center p-4">
@@ -65,7 +70,10 @@
         </div>
       </div>
     </a>
-    <br/>
-    <p>The unzipped CSV/TSV files can be uploaded to the app's database using the "Import" button on the corresponding Data Manager page.</p>
+    <br />
+    <p>
+      The unzipped CSV/TSV files can be uploaded to the app's database using the
+      "Import" button on the corresponding Data Manager page.
+    </p>
   </div>
 </div>

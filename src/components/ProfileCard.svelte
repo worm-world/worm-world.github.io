@@ -18,7 +18,7 @@
     <div class="flex flex-row justify-between">
       <h2 class="card-title">{name}</h2>
       <div class="h-6 flex flex-row justify-end">
-        {#if linkedinURL !== undefined && linkedinURL !== ""}
+        {#if githubURL !== undefined && githubURL !== ""}
           <a href={githubURL} target="_blank" class="w-6 mr-4"><FaGithub /></a>
         {/if}
         {#if linkedinURL !== undefined && linkedinURL !== ""}
@@ -29,7 +29,9 @@
         {/if}
       </div>
     </div>
-    <p>{description}</p>
+    <div class="indent-6 prose">
+      {@html description}
+    </div>
     <div class="card-actions justify-end" />
   </div>
 </div>
