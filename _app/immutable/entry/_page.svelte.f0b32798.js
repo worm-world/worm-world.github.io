@@ -1,4 +1,4 @@
-import{S as M,i as A,s as L,k as c,q as f,a as S,l as h,m as p,r as w,h as o,c as O,n as d,b as j,N as t,D as W}from"../chunks/index.2b2c775f.js";function C(I){let a,e,s,g,y,r,v,b,i,k,x,l,T;return{c(){a=c("div"),e=c("article"),s=c("p"),g=f(`Our software application helps to serve the needs of modern genetic
+import{S as M,i as A,s as L,k as c,q as f,a as S,l as h,m as p,r as w,h as o,c as O,n as d,b as j,N as t,D as W}from"../chunks/index.3b8d7587.js";function C(I){let a,e,s,g,y,r,v,b,i,k,x,l,T;return{c(){a=c("div"),e=c("article"),s=c("p"),g=f(`Our software application helps to serve the needs of modern genetic
   researchers in a laboratory research setting, specifically those carrying out
   genetic crossings on the model organism C. Elegans, which is a very small worm
   whose biology makes it a highly useful if somewhat surprising analog to humans
