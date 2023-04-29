@@ -31,7 +31,7 @@
           Seth has a passion for the more boring aspects of coding, including writing tests for everything, performing pristine quality assurance checks, and taking an over-zealous approach to reviewing PRs.
         </p>  
         <p>
-          He also loves traveling and exploring new places. Seth’s favorite travel destination so far has been Odgen, Utah, where he enjoyed trying new foods and learning about the local culture. 
+          He also loves traveling and exploring new places. Seth’s favorite travel destination so far has been Ogden, Utah, where he enjoyed trying new foods and learning about the local culture. 
           Upon graduation, Seth plans to expand the scope of his travel to other states (possibly Montana) and work his way up to traveling to the more culturally diverse parts of Europe, such as the U.K.
           Finally, after indulging in this mid-mid-life crisis, Seth will return back to the states and move to New York, New York. 
           There, he will work with fellow bald aficionado, Jeff Bezos, and start as a Software Engineer with Amazon.
@@ -70,7 +70,7 @@
         As a team member, Will brings his analytical thinking, creativity, and attention to detail to every project he works on. He enjoys collaborating with others and is always willing to share his knowledge and expertise to achieve the best possible outcome.
       </p>`,
       githubURL: "https://github.com/willandtommine",
-      linkedinURL: "",
+      linkedinURL: "https://www.linkedin.com/in/william-bradshaw-14165a1a0/",
       websiteURL: "",
     },
   ];
